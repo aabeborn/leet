@@ -1,0 +1,26 @@
+{
+	"name": "@aabeborn/leetcode",
+	"private": true,
+	"description": "Leet Code exercises",
+	"type": "module",
+	"scripts": {
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"test": "vitest",
+		"test:dev": "vitest dev",
+		"test:bench": "vitest bench"
+	},
+	"keywords": [
+		"LeetCode",
+		"typescript"
+	],
+	"author": "Andrea Benato",
+	"license": "MIT",
+	"devDependencies": {
+		"@aabeborn/rules": "^0.0.0",
+		"eslint": "^9.18.0",
+		"prettier": "^3.4.2",
+		"prettier-plugin-tailwindcss": "^0.6.10",
+		"vitest": "^3.0.2"
+	}
+}
